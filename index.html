@@ -4,12 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naija's Finest Menu</title>
-    <script type="text/javascript" src="src/index.js"></script>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div id="logo-header">
-
+        <img 
+        src="file:///Users/AzomKo/Downloads/&.png" 
+        alt="logo-header"
+        />
     </div>
+<section>
+    <div class="menu-container">
+        <form class="menuForm">
+            <h3>Add a Dish!</h3>
+
+            <input 
+            type="text"
+            name="name"
+            id="yourDish"
+            value=""
+            placeholder="Enter dish name..."
+            class="input-text"/>
+            
+            <br/>
+
+            <input type="text"
+            name="image"
+            id="yourImage"
+            value=""
+            placeholder="Image link..."
+            class="input-text"
+            />
+            <br>
+
+            <input type="text" 
+            name="description" 
+            id="foodSummary"
+            value=""
+            placeholder="describe meal..."
+            class="input-text"
+            />
+            <br/>
+
+            <input type="text"
+            name="ingredients"
+            id="ingredients"
+            value=""
+            placeholder="basic ingredients..."
+            class="input-text"
+            />
+            <br/>
+            <input type="submit" name="submit" value="Make A Dish!" class="submit">
+        </form>
+    </div>
+</section>
+<section>
+    <div id="food-collection">
+        <!-- make a div here and add the card with an id of card -->
+    </div>
+</section>
+<script type="text/javascript" src="index.js"></script>
 </body>
 </html>
